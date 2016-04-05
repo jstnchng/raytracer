@@ -1,0 +1,11 @@
+/ one point light, white
+l p -80. 120. -46.6 1.0 1.0 1.0
+ 
+/ camera: pointing towards -Z, 35mmx25mm "film", 35mm focal length
+/ making 160x120 pixels
+c 24.2 29.3 53.6 0.0 0.0 -1.0 35.0 35.0 25.0 400 300
+
+m 0.5 0.5 0.5 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+ 
+/ a grey ground plane made up of two triangles, no specular, no reflection
+p  0.0 1.0 0.0 0.0
